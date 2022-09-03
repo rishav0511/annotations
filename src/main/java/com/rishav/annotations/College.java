@@ -4,8 +4,13 @@ public class College {
 
     private Principal principal;
 
-    public College(Principal principal) {
+    /*public College(Principal principal) {
         this.principal = principal;
+    }*/
+
+    public void setPrincipal(Principal principal) {
+        this.principal = principal;
+        System.out.println("Using setter method");
     }
 
     public void test() {
