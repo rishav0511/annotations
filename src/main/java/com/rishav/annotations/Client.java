@@ -9,5 +9,6 @@ public class Client {
         ApplicationContext context = new AnnotationConfigApplicationContext(CollegeConfig.class);
         College college = context.getBean("collegeBean",College.class);
         System.out.println("College Object created: "+college);
+        college.test();
     }
 }
